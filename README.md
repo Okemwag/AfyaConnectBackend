@@ -10,10 +10,6 @@ This project is a backend application written in Django with PostGIS, designed t
 
 - [Installation](#installation)
 
-- [Usage](#usage)
-
-- [API Endpoints](#api-endpoints)
-
 - [Contributing](#contributing)
 
 - [License](#license)
@@ -42,10 +38,17 @@ This project is a backend application written in Django with PostGIS, designed t
 
 1. **Clone the repository**:
 
-   ```bash
+   ```
 
    git clone https://github.com/Okemwag/AfyaConnectBackend.git
 
    cd AfyaConnectBackend
 
    ```
+2. **Run the project**
+
+    ```
+    make build
+
+    make run
+    ```
